@@ -1,5 +1,6 @@
-// Moi them vao
+// Duoc them vao
 import '../stylesheets/application'
+import 'bootstrap'
 
 
 // This file is automatically compiled by Webpack, along with any other files
