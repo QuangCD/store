@@ -38,3 +38,11 @@ vi:
     contact: Liên Hệ
     accessorie: Phụ Kiện
     search: Tìm Kiếm
+  sessions:
+    title: Đăng Nhập
+    login: Đăng nhập
+  registrations:
+    tite: Đăng Kí
+  passwords:
+    titlee: Quên Mật Khẩu
+    send: Đặt Lại Mật Khẩu

@@ -15,3 +15,10 @@ ActiveStorage.start()
 
 import '../stylesheets/application'
 import 'bootstrap'
+
+
+
+import Splide from '@splidejs/splide'
+document.addEventListener('DOMContentLoaded', function() {
+    new Splide('.splide').mount();
+});

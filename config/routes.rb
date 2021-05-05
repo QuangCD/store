@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  resources :contacts
+  resources :news, only: [:index, :show]
+  resources :abouts, only: [:index]                           # get '/about', controller: :about, action: :index
+  resources :accessories, only: [:index, :show]
+  resources :products, only: [:index, :show]
   devise_for :users, controllers: {
     sessions: 'users/sessions',
     passwords: 'users/passwords',

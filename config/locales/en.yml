@@ -38,3 +38,11 @@ en:
     contact: Contact
     accessorie: Accessories
     search: Search
+  sessions:
+    title: Login
+    login: Login
+  registrations:
+    tite: Sign Up
+  passwords:
+    titlee: Forgot Your Password
+    send: Send me reset password instructions
