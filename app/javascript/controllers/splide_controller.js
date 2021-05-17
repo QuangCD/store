@@ -13,7 +13,7 @@ export default class extends Controller {
         let selector = `#${id}`
         let splide = new Splide(selector, {
             type: 'lood',
-            autoplay: false,
+            autoplay: true,
             cover: true,
             lazyLoad: 'nearby'
         })

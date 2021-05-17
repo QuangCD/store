@@ -3,12 +3,35 @@ section[group='banner'] {
         height: calc(100vh * 0.8);
         background-color: rosybrown;
         .slide__content {
-            margin-left: 12.5%;
-            width: 75%;
+            width: 100%;
             height: calc(100vh * 0.8);
             img {
                 width: 100%;
                 height: 100%;
+            }
+            .slide__discription {
+                position: absolute;
+                width: 40%;
+                background-color: #c3c3c3;
+                opacity: 0.6;
+                color: blue;
+                font-weight: bold;
+                border-radius: 5px;
+                padding: 30px;
+                &.bottom-left {
+                    left: 30px;
+                    bottom: 30px;
+                }
+                &.top-right {
+                    top: 30px;
+                    bottom: unset;
+                    left: unset;
+                    right: 30px
+                }
+                &.bottom-right {
+                    right: 30px;
+                    bottom: 30px;
+                }
             }
         }
     }
